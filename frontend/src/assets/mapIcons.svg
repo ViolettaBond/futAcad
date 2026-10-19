@@ -1,0 +1,7 @@
+<svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="stroke0_2288_2761" fill="white">
+<path d="M17 8.5C17 15 8.5 20 8.5 20C8.5 20 0 15 0 8.5C0 3.80558 3.80558 0 8.5 0C13.1944 0 17 3.80558 17 8.5Z"/>
+</mask>
+<path d="M17 8.5C17 15 8.5 20 8.5 20C8.5 20 0 15 0 8.5C0 3.80558 3.80558 0 8.5 0C13.1944 0 17 3.80558 17 8.5Z" stroke-width="4" stroke="#00093C" mask="url(#stroke0_2288_2761)"/>
+<circle cx="8.5" cy="7.5" r="2.5" fill="#00093C"/>
+</svg>
