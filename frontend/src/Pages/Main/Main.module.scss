@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    ul {
+        list-style-type: none;
+    }
+}
+
+.mainBanner {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../../assets/backgroundMain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container {
+        width: 100%;
+        height: 90%;
+        max-width: 1180px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+
+        h1 {
+            width: 50%;
+            line-height: 7rem;
+            font-size: 3.6rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        p {
+            font-size: 2rem;
+            color: #fff;
+        }
+    }
+}
+
+
+
+.videoBanner {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/backgroundVideoBanner.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    .container {
+        width: 100%;
+        max-width: 1290px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+
+        .videoImg {
+            img {
+                width: 780px;
+                height: 436px;
+            }
+        }
+    }
+}
+
+.statsSection {
+    width: 100%;
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
+
+    .container {
+        height: 80vh;
+        width: 100%;
+        max-width: 1180px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .topText {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+            h2 {
+                font-size: 2.4rem;
+                font-weight: 600;
+                color: #000;
+            }
+        }
+
+        .statsRow {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+
+            .statItem {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .statNumber {
+                    font-size: 6rem;
+                    font-weight: 700;
+                    -webkit-text-stroke: 2px #f2c94c;
+                    color: transparent;
+                }
+
+                .statLabel {
+                    font-size: 1.6rem;
+                    color: #4f4f4f;
+                }
+            }
+        }
+
+        .openDayBanner {
+            width: 100%;
+            background-color: #fff8ba;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .openDayDate {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .bigNum {
+                    font-size: 6rem;
+                    font-weight: 700;
+                    line-height: 1;
+                }
+                .month {
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                }
+            }
+
+            .openDayText {
+                h4 {
+                    font-size: 2.2rem;
+                }
+                p {
+                    font-size: 1.4rem;
+                    color: #555;
+                }
+            }
+
+            .signUpBtn {
+                background: transparent;
+                border: 1px solid #000;
+                font-size: 1.4rem;
+                font-weight: 600;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: 0.3s;
+
+                &:hover {
+                    background: #000;
+                    color: #fff8ba;
+                }
+            }
+        }
+
+        .gridWrapper {
+            width: 100%;
+            display: flex;
+            gap: 30px;
+
+            .bigCard {
+                flex: 1;
+                min-height: 450px;
+                background-color: #f5f5f5;
+                border-radius: 12px;
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .cardContent {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        object-fit: contain;
+                    }
+
+                    .textBlock {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+
+                        h3 {
+                            font-size: 2.2rem;
+                            color: #000;
+                        }
+                        p {
+                            font-size: 1.6rem;
+                            color: #666;
+                            line-height: 1.5;
+                        }
+                    }
+                }
+
+                .moreBtn {
+                    width: fit-content;
+                    background: transparent;
+                    border: 1px solid #1e90ff;
+                    color: #1e90ff;
+                    padding: 10px 25px;
+                    border-radius: 6px;
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background: #1e90ff;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .rightColumn {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                .topRow {
+                    display: flex;
+                    gap: 30px;
+                    flex: 1;
+
+                    .smallCard {
+                        flex: 1;
+                        min-height: 200px;
+                        border-radius: 12px;
+                        padding: 30px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 15px;
+
+                        img {
+                            width: 50px;
+                            height: 50px;
+                            object-fit: contain;
+                        }
+                        h3 {
+                            font-size: 2rem;
+                            color: #000;
+                        }
+
+                        &.lightBlueCard {
+                            background-color: #ebf6fa;
+                        }
+                        &.whiteCard {
+                            background-color: #fff;
+                            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+                        }
+                    }
+                }
+
+                .tryBlock {
+                    width: 100%;
+                    background-color: #fff8ba;
+                    border-radius: 12px;
+                    padding: 30px;
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+
+                    .tryIcons {
+                        display: flex;
+                        gap: 10px;
+
+                        .shape {
+                            font-size: 3rem;
+                            color: #333;
+                            border: 2px solid #333;
+                            padding: 5px;
+                            border-radius: 8px;
+                            width: 50px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+
+                    .tryText {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+
+                        h4 {
+                            font-size: 2rem;
+                            color: #000;
+                        }
+                        p {
+                            font-size: 1.4rem;
+                            color: #555;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

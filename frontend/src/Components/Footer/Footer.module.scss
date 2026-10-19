@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    ul {
+        li {
+            list-style-type: none;
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    background: #00093c;
+    .container {
+        width: 100%;
+        max-width: 1180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        .companyBlock {
+            width: 20%;
+            height: 322px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            img {
+                width: 83px;
+                height: 58px;
+            }
+
+            .contactInfo {
+                height: 102px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p:nth-child(1) {
+                    font-size: 1.8rem;
+                    font-weight: 500;
+                    color: #fff;
+                }
+
+                p {
+                    font-size: 1.4rem;
+                    color: #fff;
+                }
+            }
+
+            .socialLinks {
+                width: 80%;
+                height: 26px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                img {
+                    width: 21px;
+                    height: 26px;
+                    cursor: pointer;
+                }
+            }
+
+            .copyright {
+                font-size: 1.2rem;
+                color: #bdbdbd;
+            }
+        }
+
+        .kidsBlock {
+            height: 416px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            h3 {
+                font-size: 1.6rem;
+                color: #fff;
+            }
+
+            ul {
+                height: 364px;
+                display: flex;
+                flex-direction: column;
+
+                li {
+                    line-height: 3.4rem;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .teenBlock {
+            height: 416px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            h3 {
+                font-size: 1.6rem;
+                color: #fff;
+            }
+
+            ul {
+                height: 364px;
+                display: flex;
+                flex-direction: column;
+
+                li {
+                    line-height: 3.4rem;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .adultBlock {
+            height: 416px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            h3 {
+                font-size: 1.6rem;
+                color: #fff;
+            }
+
+            ul {
+                height: 364px;
+                display: flex;
+                flex-direction: column;
+
+                li {
+                    line-height: 3.4rem;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .infoBlock {
+            height: 416px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            h3 {
+                font-size: 1.6rem;
+                color: #fff;
+            }
+
+            ul {
+                height: 364px;
+                display: flex;
+                flex-direction: column;
+
+                li {
+                    line-height: 3.4rem;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@use '../../../Styles/mixin' as *;
+@use '../../../Styles/variables' as *;
+
+.hero {
+    width: 100%;
+    height: 480px;
+    background-image: url(../../../assets/bgHeroHome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include flex-column-center-center;
+
+    .container {
+        width: 60%;
+        @include flex-column;
+        gap: 1rem;
+
+        .title {
+            width: 50%;
+            color: #ffffff;
+            font-size: $fs-36;
+            font-weight: $fw-bold;
+            line-height: 1.8;
+        }
+
+        span {
+            color: #ffffff;
+            font-size: $fs-20;
+        }
+    }
+}

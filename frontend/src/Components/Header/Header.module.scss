@@ -3,12 +3,68 @@
 
 .header {
     width: 100%;
-    padding: 4rem 0;
+    padding: 2rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    .container{
-      @@
+    .container {
+        @include container;
+        @include flex-center-between;
+
+        .nav {
+            width: 40%;
+            @include flex-center-between;
+
+            .courses {
+                display: flex;
+                gap: 1rem;
+            }
+
+            li {
+                font-weight: $fw-medium;
+                cursor: pointer;
+                transition: transform 0.2s ease-in-out;
+                font-size: $fs-14;
+
+                &:hover {
+                    font-weight: $fw-semibold;
+                    transform: translateY(-2px);
+                }
+            }
+        }
+
+        .panel {
+            width: 40%;
+            @include flex-center-between;
+
+            .location {
+                @include flex-center;
+                gap: 1rem;
+
+                span {
+                    font-size: $fs-14;
+                    font-weight: $fw-medium;
+                    border-bottom: 1px solid #000000;
+                }
+
+                img {
+                    cursor: pointer;
+                }
+            }
+
+            .phone {
+                color: $dark-blue;
+                font-weight: $fw-medium;
+                font-size: $fs-16;
+            }
+
+            .login {
+                @include flex-center;
+                gap: 1rem;
+                font-size: $fs-14;
+                font-weight: $fw-medium;
+            }
+        }
     }
 }

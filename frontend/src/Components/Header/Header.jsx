@@ -16,6 +16,23 @@ export default function Header() {
                         <li className={styles.text}>Базы знаний</li>
                         <li className={styles.text}>Карьера</li>
                     </nav>
+
+                    <ul className={styles.panel}>
+                        <li className={styles.location}>
+                            <img src={Photos.mapIcons} alt="" />
+
+                            <span>Нижний Новгород</span>
+
+                            <img src={Photos.arrowDown} alt="" />
+                        </li>
+
+                        <li className={styles.phone}>8 800 950-33-98 </li>
+
+                        <li className={styles.login}>
+                            <img src={Photos.personIcons} alt="" />
+                            Войти
+                        </li>
+                    </ul>
                 </div>
             </header>
         </>
